@@ -17,24 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle4BitmapBackground@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="IRq-GU-GHB">
-                                <rect key="frame" x="0.0" y="64" width="320" height="568"/>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5iY-lp-9Hg">
-                                <rect key="frame" x="29" y="295" width="275" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5iY-lp-9Hg">
+                                <rect key="frame" x="33" y="269" width="254" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smartibBranding@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="j9K-ag-MZL">
-                                <rect key="frame" x="115" y="88" width="100" height="100"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="smartibBranding@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="j9K-ag-MZL">
+                                <rect key="frame" x="110" y="88" width="100" height="100"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QFP-iU-bcE">
-                                <rect key="frame" x="29" y="239" width="275" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QFP-iU-bcE">
+                                <rect key="frame" x="33" y="222" width="254" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSO-t9-nEx">
-                                <rect key="frame" x="160" y="323" width="144" height="25"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSO-t9-nEx">
+                                <rect key="frame" x="159" y="303" width="144" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="MtB-hr-IeP"/>
+                                    <constraint firstAttribute="height" constant="25" id="ZQq-Ye-nmX"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <state key="normal" title="forget password   ?">
                                     <color key="titleColor" red="0.0" green="0.78823529410000004" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -44,9 +45,13 @@
                                     <action selector="forgetPassword:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5tC-ZV-shu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgG-dl-jTf">
-                                <rect key="frame" x="27" y="368" width="274" height="43"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgG-dl-jTf">
+                                <rect key="frame" x="40" y="361" width="240" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="254" id="1bJ-os-ctm"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="Im6-X9-2Ak"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="create  account" backgroundImage="rectangle6Copy2.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -57,10 +62,27 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="IRq-GU-GHB" secondAttribute="trailing" id="Q1Q-nR-R9O"/>
-                            <constraint firstItem="IRq-GU-GHB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="ZRY-uH-6dB"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="IRq-GU-GHB" secondAttribute="bottom" constant="-64" id="uDm-fW-zGw"/>
-                            <constraint firstItem="IRq-GU-GHB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="yv8-A8-cxO"/>
+                            <constraint firstItem="JgG-dl-jTf" firstAttribute="top" secondItem="LSO-t9-nEx" secondAttribute="bottom" constant="42" id="0FD-i1-ihG"/>
+                            <constraint firstItem="QFP-iU-bcE" firstAttribute="leading" secondItem="5iY-lp-9Hg" secondAttribute="leading" id="2BQ-fP-mDh"/>
+                            <constraint firstItem="JgG-dl-jTf" firstAttribute="height" secondItem="5iY-lp-9Hg" secondAttribute="height" id="3x4-5L-pdy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JgG-dl-jTf" secondAttribute="trailing" constant="19" id="5Wk-gs-NqC"/>
+                            <constraint firstItem="5iY-lp-9Hg" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="AaQ-Nj-9Vb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JgG-dl-jTf" secondAttribute="trailing" constant="6" id="IVu-mI-Rdz"/>
+                            <constraint firstItem="QFP-iU-bcE" firstAttribute="centerX" secondItem="j9K-ag-MZL" secondAttribute="centerX" id="LbU-6p-W2Q"/>
+                            <constraint firstItem="QFP-iU-bcE" firstAttribute="top" secondItem="j9K-ag-MZL" secondAttribute="bottom" constant="34" id="NfC-V9-cbo"/>
+                            <constraint firstItem="JgG-dl-jTf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="7" id="YKr-yl-jji"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JgG-dl-jTf" secondAttribute="trailing" constant="7" id="aMn-4B-JLK"/>
+                            <constraint firstItem="5iY-lp-9Hg" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="aNw-GF-F6P"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JgG-dl-jTf" secondAttribute="trailing" constant="7" id="dqA-lc-xJg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LSO-t9-nEx" secondAttribute="trailing" constant="1" id="kg7-bx-Krm"/>
+                            <constraint firstItem="JgG-dl-jTf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="nU8-Ga-hlA"/>
+                            <constraint firstItem="JgG-dl-jTf" firstAttribute="height" secondItem="QFP-iU-bcE" secondAttribute="height" id="nYa-Pr-cGc"/>
+                            <constraint firstItem="QFP-iU-bcE" firstAttribute="trailing" secondItem="5iY-lp-9Hg" secondAttribute="trailing" id="pTc-dn-w3u"/>
+                            <constraint firstItem="5iY-lp-9Hg" firstAttribute="top" secondItem="QFP-iU-bcE" secondAttribute="bottom" constant="17" id="qUo-wU-vh8"/>
+                            <constraint firstItem="QFP-iU-bcE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="17" id="w7F-oW-H3H"/>
+                            <constraint firstItem="JgG-dl-jTf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="7" id="wEf-yR-7ik"/>
+                            <constraint firstItem="JgG-dl-jTf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="19" id="xc7-vk-wuP"/>
+                            <constraint firstItem="LSO-t9-nEx" firstAttribute="top" secondItem="5iY-lp-9Hg" secondAttribute="bottom" constant="4" id="zRa-KH-Ynv"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bFB-EU-2tD"/>
@@ -191,13 +213,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VC6-qQ-0XC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="336"/>
+            <point key="canvasLocation" x="173" y="318"/>
         </scene>
     </scenes>
     <resources>
         <image name="00c9e7.png" width="150" height="200"/>
         <image name="iconCamera@3x.png" width="234" height="234"/>
-        <image name="rectangle4BitmapBackground@3x.png" width="960" height="1704"/>
         <image name="rectangle6Copy2.png" width="275" height="50"/>
         <image name="smartibBranding@3x.png" width="359" height="374"/>
     </resources>

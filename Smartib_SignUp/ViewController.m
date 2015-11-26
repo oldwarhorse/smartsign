@@ -40,6 +40,7 @@
     [barButtonLogin setTintColor:[UIColor whiteColor]];
 
     [_SignupOrLoginBtn setTitle: @"create account" forState: UIControlStateNormal];
+    _forgetPasswordBtn.hidden=YES;
 
     [self textFieldDesign];
     
