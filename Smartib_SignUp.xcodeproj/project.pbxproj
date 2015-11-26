@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EDB0BB81C0592740010FE87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB0BB71C0592740010FE87 /* main.m */; };
+		1EDB0BBB1C0592740010FE87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB0BBA1C0592740010FE87 /* AppDelegate.m */; };
+		1EDB0BBE1C0592740010FE87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB0BBD1C0592740010FE87 /* ViewController.m */; };
+		1EDB0BC11C0592740010FE87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BBF1C0592740010FE87 /* Main.storyboard */; };
+		1EDB0BC31C0592740010FE87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BC21C0592740010FE87 /* Images.xcassets */; };
+		1EDB0BC61C0592740010FE87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BC41C0592740010FE87 /* LaunchScreen.xib */; };
+		1EDB0BD21C0592740010FE87 /* Smartib_SignUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB0BD11C0592740010FE87 /* Smartib_SignUpTests.m */; };
+		1EDB0BDF1C0594410010FE87 /* smartibBranding@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BDE1C0594410010FE87 /* smartibBranding@3x.png */; };
+		1EDB0BE11C059A0C0010FE87 /* rectangle4BitmapBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BE01C059A0C0010FE87 /* rectangle4BitmapBackground@2x.png */; };
+		1EDB0BE31C059A410010FE87 /* rectangle4BitmapBackground@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BE21C059A410010FE87 /* rectangle4BitmapBackground@3x.png */; };
+		1EDB0BE71C05A7DA0010FE87 /* rectangle6Copy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BE61C05A7DA0010FE87 /* rectangle6Copy2.png */; };
+		1EDB0BEA1C05B99C0010FE87 /* createAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB0BE91C05B99C0010FE87 /* createAccountViewController.m */; };
+		1EDB0BEC1C05BB510010FE87 /* rectangle6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BEB1C05BB510010FE87 /* rectangle6@3x.png */; };
+		1EDB0BEE1C05C0D60010FE87 /* 00c9e7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BED1C05C0D60010FE87 /* 00c9e7.png */; };
+		1EDB0BF01C05C1CF0010FE87 /* checkMark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BEF1C05C1CF0010FE87 /* checkMark@2x.png */; };
+		1EDB0BF21C05C2290010FE87 /* profilePictureFrame@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BF11C05C2290010FE87 /* profilePictureFrame@3x.png */; };
+		1EDB0BF41C05C6D80010FE87 /* iconCamera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BF31C05C6D80010FE87 /* iconCamera@3x.png */; };
+		1EDB0BF61C05CCB40010FE87 /* callout-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BF51C05CCB40010FE87 /* callout-2.png */; };
+		1EDB0BF81C05CCFD0010FE87 /* RedX-Medium.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB0BF71C05CCFD0010FE87 /* RedX-Medium.gif */; };
+		1EDB0BFB1C05D45A0010FE87 /* loginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB0BFA1C05D45A0010FE87 /* loginController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EDB0BCC1C0592740010FE87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EDB0BAA1C0592740010FE87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EDB0BB11C0592740010FE87;
+			remoteInfo = Smartib_SignUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EDB0BB21C0592740010FE87 /* Smartib_SignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smartib_SignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDB0BB61C0592740010FE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EDB0BB71C0592740010FE87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EDB0BB91C0592740010FE87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EDB0BBA1C0592740010FE87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EDB0BBC1C0592740010FE87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EDB0BBD1C0592740010FE87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EDB0BC01C0592740010FE87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EDB0BC21C0592740010FE87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1EDB0BC51C0592740010FE87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1EDB0BCB1C0592740010FE87 /* Smartib_SignUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smartib_SignUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDB0BD01C0592740010FE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EDB0BD11C0592740010FE87 /* Smartib_SignUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smartib_SignUpTests.m; sourceTree = "<group>"; };
+		1EDB0BDE1C0594410010FE87 /* smartibBranding@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smartibBranding@3x.png"; sourceTree = "<group>"; };
+		1EDB0BE01C059A0C0010FE87 /* rectangle4BitmapBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rectangle4BitmapBackground@2x.png"; sourceTree = "<group>"; };
+		1EDB0BE21C059A410010FE87 /* rectangle4BitmapBackground@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rectangle4BitmapBackground@3x.png"; sourceTree = "<group>"; };
+		1EDB0BE61C05A7DA0010FE87 /* rectangle6Copy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectangle6Copy2.png; sourceTree = "<group>"; };
+		1EDB0BE81C05B99C0010FE87 /* createAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = createAccountViewController.h; sourceTree = "<group>"; };
+		1EDB0BE91C05B99C0010FE87 /* createAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = createAccountViewController.m; sourceTree = "<group>"; };
+		1EDB0BEB1C05BB510010FE87 /* rectangle6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rectangle6@3x.png"; sourceTree = "<group>"; };
+		1EDB0BED1C05C0D60010FE87 /* 00c9e7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 00c9e7.png; sourceTree = "<group>"; };
+		1EDB0BEF1C05C1CF0010FE87 /* checkMark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkMark@2x.png"; sourceTree = "<group>"; };
+		1EDB0BF11C05C2290010FE87 /* profilePictureFrame@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profilePictureFrame@3x.png"; sourceTree = "<group>"; };
+		1EDB0BF31C05C6D80010FE87 /* iconCamera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconCamera@3x.png"; sourceTree = "<group>"; };
+		1EDB0BF51C05CCB40010FE87 /* callout-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "callout-2.png"; sourceTree = "<group>"; };
+		1EDB0BF71C05CCFD0010FE87 /* RedX-Medium.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "RedX-Medium.gif"; sourceTree = "<group>"; };
+		1EDB0BF91C05D45A0010FE87 /* loginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginController.h; sourceTree = "<group>"; };
+		1EDB0BFA1C05D45A0010FE87 /* loginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EDB0BAF1C0592740010FE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDB0BC81C0592740010FE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EDB0BA91C0592740010FE87 = {
+			isa = PBXGroup;
+			children = (
+				1EDB0BB41C0592740010FE87 /* Smartib_SignUp */,
+				1EDB0BCE1C0592740010FE87 /* Smartib_SignUpTests */,
+				1EDB0BB31C0592740010FE87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EDB0BB31C0592740010FE87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB0BB21C0592740010FE87 /* Smartib_SignUp.app */,
+				1EDB0BCB1C0592740010FE87 /* Smartib_SignUpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EDB0BB41C0592740010FE87 /* Smartib_SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB0BB91C0592740010FE87 /* AppDelegate.h */,
+				1EDB0BBA1C0592740010FE87 /* AppDelegate.m */,
+				1EDB0BBC1C0592740010FE87 /* ViewController.h */,
+				1EDB0BBD1C0592740010FE87 /* ViewController.m */,
+				1EDB0BF91C05D45A0010FE87 /* loginController.h */,
+				1EDB0BFA1C05D45A0010FE87 /* loginController.m */,
+				1EDB0BE81C05B99C0010FE87 /* createAccountViewController.h */,
+				1EDB0BE91C05B99C0010FE87 /* createAccountViewController.m */,
+				1EDB0BBF1C0592740010FE87 /* Main.storyboard */,
+				1EDB0BC21C0592740010FE87 /* Images.xcassets */,
+				1EDB0BC41C0592740010FE87 /* LaunchScreen.xib */,
+				1EDB0BDB1C0592DE0010FE87 /* Images */,
+				1EDB0BB51C0592740010FE87 /* Supporting Files */,
+			);
+			path = Smartib_SignUp;
+			sourceTree = "<group>";
+		};
+		1EDB0BB51C0592740010FE87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB0BB61C0592740010FE87 /* Info.plist */,
+				1EDB0BB71C0592740010FE87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EDB0BCE1C0592740010FE87 /* Smartib_SignUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB0BD11C0592740010FE87 /* Smartib_SignUpTests.m */,
+				1EDB0BCF1C0592740010FE87 /* Supporting Files */,
+			);
+			path = Smartib_SignUpTests;
+			sourceTree = "<group>";
+		};
+		1EDB0BCF1C0592740010FE87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB0BD01C0592740010FE87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EDB0BDB1C0592DE0010FE87 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB0BE01C059A0C0010FE87 /* rectangle4BitmapBackground@2x.png */,
+				1EDB0BE21C059A410010FE87 /* rectangle4BitmapBackground@3x.png */,
+				1EDB0BDE1C0594410010FE87 /* smartibBranding@3x.png */,
+				1EDB0BE61C05A7DA0010FE87 /* rectangle6Copy2.png */,
+				1EDB0BEB1C05BB510010FE87 /* rectangle6@3x.png */,
+				1EDB0BED1C05C0D60010FE87 /* 00c9e7.png */,
+				1EDB0BEF1C05C1CF0010FE87 /* checkMark@2x.png */,
+				1EDB0BF11C05C2290010FE87 /* profilePictureFrame@3x.png */,
+				1EDB0BF31C05C6D80010FE87 /* iconCamera@3x.png */,
+				1EDB0BF51C05CCB40010FE87 /* callout-2.png */,
+				1EDB0BF71C05CCFD0010FE87 /* RedX-Medium.gif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EDB0BB11C0592740010FE87 /* Smartib_SignUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EDB0BD51C0592740010FE87 /* Build configuration list for PBXNativeTarget "Smartib_SignUp" */;
+			buildPhases = (
+				1EDB0BAE1C0592740010FE87 /* Sources */,
+				1EDB0BAF1C0592740010FE87 /* Frameworks */,
+				1EDB0BB01C0592740010FE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smartib_SignUp;
+			productName = Smartib_SignUp;
+			productReference = 1EDB0BB21C0592740010FE87 /* Smartib_SignUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EDB0BCA1C0592740010FE87 /* Smartib_SignUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EDB0BD81C0592740010FE87 /* Build configuration list for PBXNativeTarget "Smartib_SignUpTests" */;
+			buildPhases = (
+				1EDB0BC71C0592740010FE87 /* Sources */,
+				1EDB0BC81C0592740010FE87 /* Frameworks */,
+				1EDB0BC91C0592740010FE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EDB0BCD1C0592740010FE87 /* PBXTargetDependency */,
+			);
+			name = Smartib_SignUpTests;
+			productName = Smartib_SignUpTests;
+			productReference = 1EDB0BCB1C0592740010FE87 /* Smartib_SignUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EDB0BAA1C0592740010FE87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Leela Electronics";
+				TargetAttributes = {
+					1EDB0BB11C0592740010FE87 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1EDB0BCA1C0592740010FE87 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1EDB0BB11C0592740010FE87;
+					};
+				};
+			};
+			buildConfigurationList = 1EDB0BAD1C0592740010FE87 /* Build configuration list for PBXProject "Smartib_SignUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EDB0BA91C0592740010FE87;
+			productRefGroup = 1EDB0BB31C0592740010FE87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EDB0BB11C0592740010FE87 /* Smartib_SignUp */,
+				1EDB0BCA1C0592740010FE87 /* Smartib_SignUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EDB0BB01C0592740010FE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDB0BEE1C05C0D60010FE87 /* 00c9e7.png in Resources */,
+				1EDB0BC11C0592740010FE87 /* Main.storyboard in Resources */,
+				1EDB0BC61C0592740010FE87 /* LaunchScreen.xib in Resources */,
+				1EDB0BEC1C05BB510010FE87 /* rectangle6@3x.png in Resources */,
+				1EDB0BF21C05C2290010FE87 /* profilePictureFrame@3x.png in Resources */,
+				1EDB0BF41C05C6D80010FE87 /* iconCamera@3x.png in Resources */,
+				1EDB0BF81C05CCFD0010FE87 /* RedX-Medium.gif in Resources */,
+				1EDB0BF61C05CCB40010FE87 /* callout-2.png in Resources */,
+				1EDB0BE11C059A0C0010FE87 /* rectangle4BitmapBackground@2x.png in Resources */,
+				1EDB0BDF1C0594410010FE87 /* smartibBranding@3x.png in Resources */,
+				1EDB0BC31C0592740010FE87 /* Images.xcassets in Resources */,
+				1EDB0BE71C05A7DA0010FE87 /* rectangle6Copy2.png in Resources */,
+				1EDB0BF01C05C1CF0010FE87 /* checkMark@2x.png in Resources */,
+				1EDB0BE31C059A410010FE87 /* rectangle4BitmapBackground@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDB0BC91C0592740010FE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EDB0BAE1C0592740010FE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDB0BFB1C05D45A0010FE87 /* loginController.m in Sources */,
+				1EDB0BEA1C05B99C0010FE87 /* createAccountViewController.m in Sources */,
+				1EDB0BBE1C0592740010FE87 /* ViewController.m in Sources */,
+				1EDB0BBB1C0592740010FE87 /* AppDelegate.m in Sources */,
+				1EDB0BB81C0592740010FE87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDB0BC71C0592740010FE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDB0BD21C0592740010FE87 /* Smartib_SignUpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EDB0BCD1C0592740010FE87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EDB0BB11C0592740010FE87 /* Smartib_SignUp */;
+			targetProxy = 1EDB0BCC1C0592740010FE87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EDB0BBF1C0592740010FE87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EDB0BC01C0592740010FE87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EDB0BC41C0592740010FE87 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EDB0BC51C0592740010FE87 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EDB0BD31C0592740010FE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EDB0BD41C0592740010FE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EDB0BD61C0592740010FE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smartib_SignUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EDB0BD71C0592740010FE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smartib_SignUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EDB0BD91C0592740010FE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Smartib_SignUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartib_SignUp.app/Smartib_SignUp";
+			};
+			name = Debug;
+		};
+		1EDB0BDA1C0592740010FE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Smartib_SignUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartib_SignUp.app/Smartib_SignUp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EDB0BAD1C0592740010FE87 /* Build configuration list for PBXProject "Smartib_SignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDB0BD31C0592740010FE87 /* Debug */,
+				1EDB0BD41C0592740010FE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EDB0BD51C0592740010FE87 /* Build configuration list for PBXNativeTarget "Smartib_SignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDB0BD61C0592740010FE87 /* Debug */,
+				1EDB0BD71C0592740010FE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EDB0BD81C0592740010FE87 /* Build configuration list for PBXNativeTarget "Smartib_SignUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDB0BD91C0592740010FE87 /* Debug */,
+				1EDB0BDA1C0592740010FE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EDB0BAA1C0592740010FE87 /* Project object */;
+}
